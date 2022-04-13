@@ -168,6 +168,7 @@ ul {
   border-radius: 10px;
   transition: all .1s linear;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover, .button:active, .button:focus {
