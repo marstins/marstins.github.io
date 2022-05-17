@@ -12,6 +12,18 @@ export default function App() {
     setCurrentSection(section);
   }
 
+  function returnPage() {
+    if (currentSection === 'Home') {
+      return <HomeSection />
+    } else if (currentSection === 'About Me') {
+      return <AboutSection />
+    } else if (currentSection === 'Projects') {
+      return <ProjectSection />
+    } else if (currentSection === 'Contact') {
+      return <ContactSection />
+    }
+  }
+
   return (
     <div className="App">
       <nav className="nav">
@@ -42,18 +54,7 @@ export default function App() {
           />
         </ul>
       </nav>
-      {currentSection === 'Home' && 
-        <HomeSection />
-      }
-      {currentSection === 'About Me' && 
-        <AboutSection />
-      }
-      {currentSection === 'Projects' && 
-        <ProjectSection />
-      }
-      {currentSection === 'Contact' && 
-        <ContactSection />
-      }
+      {returnPage()}
     </div>
   );
 }
