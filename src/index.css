@@ -21,7 +21,6 @@
 /*-------------------------- Typography -----------------------*/
 
 html {
-  font-size: 16px;
   background-color: var(--off-black);
   color: var(--off-white);
   font-family: 'Karla', sans-serif;
