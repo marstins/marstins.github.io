@@ -5,7 +5,15 @@ const projects = [
       "url": "https://marstins.github.io/quizzical/",
       "description": 
         "Quizzical is a quiz application where you can test your knowledge by answering random questions. It was built as a suggested challenge on the Frontend Developer Career Path on Scrimba.",
-      "technologies": ["JavaScript", "ReactJS"]
+      "technologies": ["ReactJS"]
+    },
+    {
+      "id": 2,
+      "title": "cookbook",
+      "url": "https://marstins-cookbook-app.herokuapp.com/",
+      "description": 
+        "Cookbook is a web application to help people create, manage and share culinary recipes. It was built in Python, as the final project of the CS50's Introduction to Computer Science course, and now I rebuilt it using the MERN stack.",
+      "technologies": ["MongoDB", "Express", "ReactJS", "Node.js", "Redux"]
     }
   ]
 

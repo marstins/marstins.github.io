@@ -449,6 +449,7 @@ ul {
 }
 
 .project-container {
+  height: 650px;
   width: 80vw;
   background-color: var(--dark-grey);
   margin-top: 8%;
@@ -458,6 +459,7 @@ ul {
 
 @media(min-width: 641px) {
   .project-container {
+    height: 600px;
     width: 350px;
     margin: 1.5% 1.5%;
   }

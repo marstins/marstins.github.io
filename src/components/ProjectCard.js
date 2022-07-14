@@ -10,7 +10,7 @@ export default function ProjectCard({title, technologies, description, url}) {
       <div className="project-container__text-container">
         <h2 className="project-container__text-container__title">{title}</h2>
         <div className="project-container__text-container__technologies-container">
-          {technologies.map(technology => <Capsule content={technology} />)}
+          {technologies.map(technology => <Capsule key={technologies.indexOf(technology)} content={technology} />)}
         </div>
         <p className="project-container__text-container__text">{description}</p>
         <div className="project-container__text-container__button-container">
