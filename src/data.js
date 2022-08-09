@@ -12,7 +12,7 @@ const projects = [
       "title": "cookbook",
       "url": "https://marstins-cookbook-app.herokuapp.com/",
       "description": 
-        "Cookbook is a web application to help people create, manage and share culinary recipes. It was built in Python, as the final project of the CS50's Introduction to Computer Science course, and now I rebuilt it using the MERN stack.",
+        "Cookbook is a web application to help people create, manage and share culinary recipes. It was built as the final project of the CS50's Introduction to Computer Science course.",
       "technologies": ["MongoDB", "Express", "ReactJS", "Node.js", "Redux"]
     }
   ]
